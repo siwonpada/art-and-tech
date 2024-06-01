@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "art-and-tech"
+version = "0.1.0"
+description = "project code for art and tech"
+authors = ["Shiwon Park <psw041115@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.35.0"
+langchain = "^0.2.1"
+langchain-openai = "^0.1.8"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
